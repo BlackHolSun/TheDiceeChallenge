@@ -16,8 +16,10 @@ document.getElementById("initial1").classList.remove("hidden");
 document.getElementById("initial2").classList.remove("hidden");
 
 
-/* if keypress */
+/* if key pressed in browser */
 document.addEventListener('keypress', roll);
+/* if tapped on touchscreen */
+document.addEventListener('touchstart', roll);
 
 
 /* Roll! */
