@@ -21,6 +21,24 @@ body{
 
 }
 
+.tap{
+    display: none;
+}
+
+@media (any-hover: none) {
+
+    .press-key-header{
+        display: none;
+        
+    }
+
+    .tap{
+        display: block;
+    }
+
+
+ }
+
 
 .left-flag img, .right-flag img{
     height: 7vw;
